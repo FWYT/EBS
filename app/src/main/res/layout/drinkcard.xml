@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+
+    <RelativeLayout
+        android:background="@drawable/shadow"
+        android:layout_width="380sp"
+        android:layout_height="450sp"
+        android:layout_marginTop="15sp"
+        android:layout_gravity="center_horizontal"
+        >
+
+        <TextView
+            android:id="@+id/drinkName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="CALIFORNIA LEMONADE"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="30sp"
+            android:textSize="28sp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Liquor:"
+            android:textColor="@color/black"
+            android:layout_marginTop="100sp"
+            android:layout_marginLeft="30sp"
+            />
+
+        <TextView
+            android:id="@+id/liquor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1/2oz Vodka &amp; 1/2oz Peach Schnapps"
+            android:textColor="@color/black"
+            android:layout_marginTop="130sp"
+            android:layout_marginLeft="40sp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mixer:"
+            android:textColor="@color/black"
+            android:layout_marginTop="200sp"
+            android:layout_marginLeft="30sp"
+            />
+
+        <TextView
+            android:id="@+id/mixer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cranberry Juice"
+            android:textColor="@color/black"
+            android:layout_marginTop="230sp"
+            android:layout_marginLeft="40sp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Garnish:"
+            android:textColor="@color/black"
+            android:layout_marginTop="300sp"
+            android:layout_marginLeft="30sp"
+            />
+
+        <TextView
+            android:id="@+id/garnish"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Lime"
+            android:textColor="@color/black"
+            android:layout_marginTop="330sp"
+            android:layout_marginLeft="40sp"
+            />
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="10sp"
+        android:layout_gravity="center_horizontal">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/right"
+        android:layout_marginLeft="120sp"
+        android:clickable="true"
+        android:onClick="right"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/left"
+        android:layout_marginRight="120sp"
+        android:clickable="true"
+        android:onClick="left"/>
+    </RelativeLayout>
+
+
+
+
+
+</LinearLayout>

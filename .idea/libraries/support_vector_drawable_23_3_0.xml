@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="support-vector-drawable-23.3.0">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.android/build-cache/0d05c16eba90ae2bfbb55014f2c048c790f2c76d/output/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.android/build-cache/0d05c16eba90ae2bfbb55014f2c048c790f2c76d/output/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/AppData/Local/Android/sdk/extras/android/m2repository/com/android/support/support-vector-drawable/23.3.0/support-vector-drawable-23.3.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/question"
+        android:layout_width="wrap_content"
+        android:layout_height="140sp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20sp"
+        android:textSize="25sp"
+        android:layout_marginLeft="20sp"
+        android:layout_marginRight="20sp"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:text="Which drink contains 1/2 oz Jagermeister1/2 oz Peach Schnapps + Cranberry Juice"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="300sp"
+        android:layout_marginTop="30sp">
+
+        <TextView
+            android:id="@+id/choice1"
+            android:layout_marginLeft="0sp"
+            android:background="@drawable/shadowsmall"
+            android:layout_width="180sp"
+            android:layout_height="130sp"
+            android:text="Screwdriver"
+            android:textSize="23sp"
+            android:textColor="#777777"
+            android:clickable="true"
+            android:onClick="choice"
+            android:gravity="center"/>
+
+        <TextView
+            android:id="@+id/choice2"
+            android:layout_marginLeft="180sp"
+            android:background="@drawable/shadowsmall"
+            android:layout_width="180sp"
+            android:layout_height="130sp"
+            android:text="Screwdriver"
+            android:textSize="23sp"
+            android:textColor="#777777"
+            android:clickable="true"
+            android:onClick="choice"
+            android:gravity="center"/>
+
+        <TextView
+            android:id="@+id/choice3"
+            android:layout_marginTop="130sp"
+            android:layout_marginLeft="0sp"
+            android:background="@drawable/shadowsmall"
+            android:layout_width="180sp"
+            android:layout_height="130sp"
+            android:text="Screwdriver"
+            android:textSize="23sp"
+            android:textColor="#777777"
+            android:clickable="true"
+            android:onClick="choice"
+            android:gravity="center"/>
+
+        <TextView
+            android:id="@+id/choice4"
+            android:layout_marginTop="130sp"
+            android:layout_marginLeft="180sp"
+            android:background="@drawable/shadowsmall"
+            android:layout_width="180sp"
+            android:layout_height="130sp"
+            android:text="1 oz vodka, 50/50 orange and cranberry, lime"
+            android:textSize="23sp"
+            android:onClick="choice"
+            android:textColor="#777777"
+            android:clickable="true"
+            android:gravity="center"/>
+
+    </RelativeLayout>
+
+    <TextView
+        android:layout_marginTop="-40sp"
+        android:id="@+id/answer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textSize="30sp"
+        android:textColor="@color/green"
+        android:textStyle="bold"/>
+
+</LinearLayout>
